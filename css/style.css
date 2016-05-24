@@ -1,13 +1,13 @@
 .navbar{
-  background-color: black; 
+  background-color: black;
 }
  .navbar .h2{
     color: white;
   }
 #gameboard {
-  width: 750px;    
+  width: 750px;
   margin-top:50px;
-  height:750px; 
+  height:750px;
   margin-bottom: -50px;
 }
 body{
@@ -16,7 +16,7 @@ body{
 
 .boxes {
   height: 150px;
-  width: 150px;  
+  width: 150px;
   border: outset medium;
   border-color: #7C99B4;
   border-width: 10px;
@@ -24,35 +24,39 @@ body{
 
 #box_1,#box_3,#box_7,#box_9{
   background-color: black;
-  
+
 }
 #box_1{
   border-top-left-radius:25px;
 }
 #box_3{
   border-top-right-radius:25px;
-  
+
 }
 #red{
-  background-color:red;  
+  background-color:red;
   width:300px;
 }
 #green{
   background-color:green;
-  height:300px;  
+  height:300px;
 }
 
 #yellow{
   background-color:yellow;
   height:300px;
 }
+#blue{
+  background-color:blue;
+  width:300px;
+}
+.colors:active{
+  opacity: 0.5;
+}
 #box_7{
   border-bottom-left-radius:25px;
 }
-#blue{
-  background-color:blue;
-  width:300px;  
-}
+
 #box_9{
   border-bottom-right-radius:25px;
 }
@@ -73,22 +77,22 @@ body{
   height:75px;
   border-width:10px;
   border-style:inset;
-  border-color:grey; 
+  border-color:grey;
   margin-bottom:-50px;
 }
 #counter-window{
-  margin-top:5px;  
-} 
+  margin-top:5px;
+}
 
-.blink-text,{
-  opacity:0.2;
+.blink-text{
+  opacity:0.3;
 }
 .controls{
   margin-top:55px;
 }
 #error_txt{
   margin-top:20px;
-  color:red;  
+  color:red;
 }
 .error-vis{
   opacity:0.0;
